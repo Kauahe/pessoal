@@ -1,0 +1,39 @@
+body
+{
+   background-color: #DDCCB8;
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;  
+        overflow: hidden;
+}
+
+.logo
+{
+    margin-top: 50px;
+}
+
+.menu
+{
+    width: 100%;
+    height: 10vh;
+    margin: 0%;
+    background-color:  rgba(249, 252, 74, 0.795);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.voltar
+{
+    width: 25%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;  
+}
