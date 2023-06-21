@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,7 @@
 <body>
     <div class="menu">
         <div class="voltar">
-            <a href="ajuda.html" target="_self">
-                <img src="seta (2).png" width="40px">  
-               </a>
+            <img onclick="voltar()" src="seta (2).png" width="40px"> 
         </div>
     </div>
 
@@ -21,5 +19,12 @@
        <div class="feia">
             <img src="corpo.png" width="400px">
         </div>
+
+        <script>
+            function voltar()
+            {
+                window.open("ajuda.html", "_self") 
+            }
+         </script>
 </body>
 </html>
