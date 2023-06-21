@@ -9,9 +9,7 @@
 <body>
 	<div class="menu">
         <div class="voltar">
-            <a href="ajuda.html" target="_self">
-                <img src="seta (2).png" width="40px">  
-               </a>
+			<img onclick="voltar()" src="seta (2).png" width="40px"> 
         </div>
     </div>
   <!-- Explanation in JS tab -->
@@ -37,5 +35,11 @@
 
 
 </body>
+<script>
+	function voltar()
+            {
+                window.open("ajuda.html", "_self") 
+            }
+</script>
 <script src="ela.js"></script>
 </html>
